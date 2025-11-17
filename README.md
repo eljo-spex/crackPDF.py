@@ -21,13 +21,14 @@ Install dependencies:
 
 pip install pikepdf tqdm
 
+---
 
 🧠 Usage
  **Basic Help**
  
 python crack.py -h
 
-
+---
 
 ## 🔨 wordlist Mode
 Use a wordlist file to attempt passwords:
