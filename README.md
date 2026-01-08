@@ -14,14 +14,14 @@ It uses `ThreadPoolExecutor` for concurrent password checking and `tqdm` for pro
 * 🛑 Stops instantly when the correct password is found
 * ✔️ Clean, modular, and extensible code structure
 
----
+
 
 ## 📦 Requirements
 Install dependencies:
 
   pip install pikepdf tqdm
 
----
+
 
 🧠 Usage
  **Basic Help**
