@@ -28,7 +28,7 @@ Install dependencies:
  
   python crack.py -h
 
----
+
 
 ## 🔨 wordlist Mode
 Use a wordlist file to attempt passwords:
