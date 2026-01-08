@@ -19,21 +19,20 @@ It uses `ThreadPoolExecutor` for concurrent password checking and `tqdm` for pro
 ## 📦 Requirements
 Install dependencies:
 
-  pip install pikepdf tqdm
+  **pip install pikepdf tqdm**
 
 
 
-🧠 Usage
- **Basic Help**
+🧠 Usage basic help:
  
-  python crack.py -h
+  **python crack.py -h**
 
 
 
 ## 🔨 wordlist Mode
 Use a wordlist file to attempt passwords:
 
-  python crack.py -pdf locked.pdf -w rockyou.txt -t 20
+  **python crack.py -pdf locked.pdf -w rockyou.txt -t 20**
 
 
 **Arguments:**
@@ -49,7 +48,7 @@ Use a wordlist file to attempt passwords:
 ## 🔨 Brute-Force Charset Mode
 Generate passwords using a charset:
 
-  python crack.py -pdf locked.pdf -g -char abc123 -min 3 -max 5 -t 20
+  **python crack.py -pdf locked.pdf -g -char abc123 -min 3 -max 5 -t 20**
 
 
 **Arguments:**
